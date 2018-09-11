@@ -1,0 +1,75 @@
+1. Philips-MacBook-Air:homework_part_1 philosopheyes$ mkdir death_star
+Philips-MacBook-Air:homework_part_1 philosopheyes$ cd death_star
+Philips-MacBook-Air:death_star philosopheyes$ touch darth_vader.txt princess_leia.txt storm_trooper.txt
+
+2. Philips-MacBook-Air:death_star philosopheyes$ cd ..
+Philips-MacBook-Air:homework_part_1 philosopheyes$ mkdir galaxy_far_far_away
+Philips-MacBook-Air:homework_part_1 philosopheyes$ cd galaxy_far_far_away/
+Philips-MacBook-Air:galaxy_far_far_away philosopheyes$ mkdir tatooine
+Philips-MacBook-Air:galaxy_far_far_away philosopheyes$ cd tatooine
+Philips-MacBook-Air:tatooine philosopheyes$ touch luke.txt ben_kenobi.txt
+
+
+3. Philips-MacBook-Air:tatooine philosopheyes$ mkdir millenium_falcon
+Philips-MacBook-Air:tatooine philosopheyes$ cd millenium_falcon
+Philips-MacBook-Air:millenium_falcon philosopheyes$ touch han_solo.txt chewbaca.txt
+
+4. Philips-MacBook-Air:millenium_falcon philosopheyes$ cd ..
+Philips-MacBook-Air:tatooine philosopheyes$ mv ben_kenobi.txt obi_wan.txt
+
+5. Philips-MacBook-Air:galaxy_far_far_away philosopheyes$ cp death_star/storm_trooper.txt tatooine
+
+6. Philips-MacBook-Air:galaxy_far_far_away philosopheyes$ mv tatooine/luke.txt tatooine/millenium_falcon/
+Philips-MacBook-Air:galaxy_far_far_away philosopheyes$ mv tatooine/obi_wan.txt tatooine/millenium_falcon/
+
+7. Philips-MacBook-Air:galaxy_far_far_away philosopheyes$ cd ..
+Philips-MacBook-Air:homework_part_1 philosopheyes$ mv galaxy_far_far_away/tatooine/millenium_falcon/ galaxy_far_far_away/
+
+8. Philips-MacBook-Air:homework_part_1 philosopheyes$ mv galaxy_far_far_away/millenium_falcon/ galaxy_far_far_away/death_star/
+
+9. Philips-MacBook-Air:homework_part_1 philosopheyes$ cd galaxy_far_far_away/
+Philips-MacBook-Air:galaxy_far_far_away philosopheyes$ mv death_star/princess_leia.txt death_star/millenium_falcon/
+
+10. Philips-MacBook-Air:galaxy_far_far_away philosopheyes$ rm death_star/millenium_falcon/obi_wan.txt 
+
+11. Philips-MacBook-Air:galaxy_far_far_away philosopheyes$ mkdir yavin_4
+
+12. Philips-MacBook-Air:galaxy_far_far_away philosopheyes$ cd ..
+Philips-MacBook-Air:homework_part_1 philosopheyes$ mv galaxy_far_far_away/death_star/millenium_falcon/ galaxy_far_far_away/yavin_4/
+
+13. Philips-MacBook-Air:homework_part_1 philosopheyes$ cd galaxy_far_far_away/yavin_4/
+Philips-MacBook-Air:yavin_4 philosopheyes$ mkdir x_wing
+
+14. Philips-MacBook-Air:yavin_4 philosopheyes$ cd ..
+Philips-MacBook-Air:galaxy_far_far_away philosopheyes$ mv yavin_4/millenium_falcon/princess_leia.txt yavin_4/
+Philips-MacBook-Air:galaxy_far_far_away philosopheyes$ mv yavin_4/millenium_falcon/luke.txt yavin_4/x_wing/
+
+15.Philips-MacBook-Air:homework_part_1 philosopheyes$ mv galaxy_far_far_away/yavin_4/millenium_falcon/ galaxy_far_far_away/
+Philips-MacBook-Air:homework_part_1 philosopheyes$ mv galaxy_far_far_away/yavin_4/x_wing/ galaxy_far_far_away/
+
+16. Philips-MacBook-Air:homework_part_1 philosopheyes$ mkdir galaxy_far_far_away/death_star/tie_fighter_1 
+Philips-MacBook-Air:homework_part_1 philosopheyes$ mkdir galaxy_far_far_away/death_star/tie_fighter_2
+Philips-MacBook-Air:homework_part_1 philosopheyes$ mkdir galaxy_far_far_away/death_star/tie_fighter_3
+
+17. Philips-MacBook-Air:homework_part_1 philosopheyes$ cd galaxy_far_far_away/death_star/
+Philips-MacBook-Air:death_star philosopheyes$ mv darth_vader.txt tie_fighter_1
+
+18. Philips-MacBook-Air:death_star philosopheyes$ cp storm_trooper.txt tie_fighter_2
+Philips-MacBook-Air:death_star philosopheyes$ cp storm_trooper.txt tie_fighter_3
+
+19. Philips-MacBook-Air:death_star philosopheyes$ cd ../..
+Philips-MacBook-Air:homework_part_1 philosopheyes$ mv galaxy_far_far_away/death_star/tie_fighter_1 galaxy_far_far_away/
+Philips-MacBook-Air:homework_part_1 philosopheyes$ mv galaxy_far_far_away/death_star/tie_fighter_2 galaxy_far_far_away/
+Philips-MacBook-Air:homework_part_1 philosopheyes$ mv galaxy_far_far_away/death_star/tie_fighter_3/ galaxy_far_far_away/
+Philips-MacBook-Air:homework_part_1 philosopheyes$ 
+
+20. Philips-MacBook-Air:homework_part_1 philosopheyes$ rm -r galaxy_far_far_away/tie_fighter_2
+Philips-MacBook-Air:homework_part_1 philosopheyes$ rm -r galaxy_far_far_away/tie_fighter_3
+ 
+21. Philips-MacBook-Air:homework_part_1 philosopheyes$ touch galaxy_far_far_away/x_wing/the_force.txt
+
+22. Philips-MacBook-Air:homework_part_1 philosopheyes$ rm -r galaxy_far_far_away/death_star/
+
+23. Philips-MacBook-Air:homework_part_1 philosopheyes$ mv galaxy_far_far_away/x_wing/ galaxy_far_far_away/yavin_4/
+Philips-MacBook-Air:homework_part_1 philosopheyes$ mv galaxy_far_far_away/millenium_falcon/ galaxy_far_far_away/yavin_4/
+
